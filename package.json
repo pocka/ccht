@@ -1,5 +1,6 @@
 {
   "name": "ccht",
+  "description": "A simple command0line tool to crawl and test your website",
   "version": "0.1.0",
   "license": "MIT",
   "main": "cjs/index.js",
@@ -10,6 +11,16 @@
     }
   },
   "types": "esm/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pocka/ccht"
+  },
+  "keywords": [
+    "crawling",
+    "cli",
+    "http",
+    "puppeteer"
+  ],
   "contributors": [
     {
       "name": "Shota Fuji",
