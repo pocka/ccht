@@ -2,8 +2,6 @@ name: Test and Lint
 
 on:
   push:
-    paths-ignore:
-      - "*.md"
     branches:
       - "*"
     tags-ignore:
