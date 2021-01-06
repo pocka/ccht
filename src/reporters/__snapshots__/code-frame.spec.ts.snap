@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should match snapshot 1`] = `
+"[44m [49m [34m[1mINFO   [22m[39m (200) https://example.com
+          [90mReferred by: https://example.com[39m
+
+[41m [49m [31m[1mDANGER [22m[39m [1mFailed to load the resource[22m
+          [90mat https://example.com[39m
+          Error, Error, Error.
+          [90mReferred by: https://example.com[39m
+
+[43m [49m [33m[1mWARNING[22m[39m [1mUnexpected status code[22m
+          [90mat https://example.com[39m
+          [90mexpected: [39m[32m[1mHTTP 400[22m[39m
+          [90mactual:   [39m[31m[1mHTTP 200[22m[39m
+          [90mReferred by: https://example.com[39m"
+`;

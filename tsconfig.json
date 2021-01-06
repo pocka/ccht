@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "noUnusedLocals": true,
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "esModuleInterop": true,
+    "target": "ES2018",
+    "declaration": true,
+    "outDir": "esm"
+  },
+  "include": ["src/**/*.ts"],
+  "exclude": []
+}

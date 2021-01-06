@@ -1,0 +1,14 @@
+# Common
+*.log
+.tmp
+.tmp-*
+
+# Project
+/esm/*
+/cjs/*
+!package.json
+
+# Node.js (&JS)
+node_modules
+*.tgz
+package-lock.json
