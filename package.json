@@ -54,7 +54,7 @@
     "test": "FORCE_COLOR=1 jest",
     "format": "prettier --write src",
     "check-format": "prettier --check src",
-    "prepublishOnly": "yarn clean && yarn build"
+    "prepack": "yarn clean && yarn build"
   },
   "prettier": {}
 }
