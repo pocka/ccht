@@ -1,7 +1,7 @@
 {
   "name": "ccht",
   "description": "A simple command0line tool to crawl and test your website",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "license": "MIT",
   "main": "cjs/index.js",
   "exports": {
