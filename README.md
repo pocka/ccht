@@ -1,5 +1,9 @@
 # ccht
 
+[![npm](https://img.shields.io/npm/v/ccht)](https://www.npmjs.com/package/ccht)
+[![Test and Lint Workflow Status](https://img.shields.io/github/workflow/status/pocka/ccht/Test%20and%20Lint?label=test)](https://github.com/pocka/ccht/actions?query=workflow%3A%22Test+and+Lint%22)
+[![Publish Package Workflow Status](https://img.shields.io/github/workflow/status/pocka/ccht/Publish%20package?label=publish)](https://github.com/pocka/ccht/actions?query=workflow%3A%22Publish+package%22)
+
 > Command-line Crawling HTTP Testing tool
 
 ccht is a simple command-line tool to crawl and test your website resources' HTTP status code, like broken link checker.
