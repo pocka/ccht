@@ -4,6 +4,7 @@
   "version": "0.1.1",
   "license": "MIT",
   "main": "cjs/index.js",
+  "homepage": "https://pocka.github.io/ccht/",
   "exports": {
     ".": {
       "import": "./esm/index.js",

@@ -1,0 +1,28 @@
+name: Publish website to GitHub Pages
+
+on:
+  push:
+    branches:
+      - "master"
+
+jobs:
+  publish:
+    name: Publish website to GitHub Pages
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: Install dependencies
+        run: yarn install --frozen-lockfile
+        working-directory: website
+
+      - name: Build website
+        run: yarn build
+        working-directory: website
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./website/build
