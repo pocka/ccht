@@ -5,8 +5,12 @@ module.exports = {
     {
       type: "category",
       label: "Recipes",
-      items: ["recipes/exclude_urls", "recipes/puppeteer_crawler"],
+      items: [
+        "recipes/exclude_urls",
+        "recipes/puppeteer_crawler",
+        "recipes/pipe",
+      ],
     },
   ],
-  api: ["cli"],
+  api: ["cli", "node_api"],
 };
