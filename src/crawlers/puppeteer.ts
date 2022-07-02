@@ -218,6 +218,11 @@ export class PuppeteerCrawler implements Crawler {
       return page;
     }, concurrency);
 
-    return new PuppeteerCrawler(browser, pagePool, waitUntil, timeout);
+    return new PuppeteerCrawler(
+      browser as Browser,
+      pagePool as Pool<Page>,
+      waitUntil,
+      timeout
+    );
   }
 }
